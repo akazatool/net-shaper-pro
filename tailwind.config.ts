@@ -52,6 +52,18 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				code: {
+					bg: 'hsl(var(--code-bg))',
+					border: 'hsl(var(--code-border))'
+				},
+				step: {
+					bg: 'hsl(var(--step-bg))',
+					complete: 'hsl(var(--step-complete))'
+				},
+				warning: {
+					bg: 'hsl(var(--warning-bg))',
+					border: 'hsl(var(--warning-border))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
